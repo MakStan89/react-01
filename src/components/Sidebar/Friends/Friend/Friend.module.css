@@ -1,0 +1,10 @@
+.friendPhoto {
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+
+.friendPhoto img {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+}

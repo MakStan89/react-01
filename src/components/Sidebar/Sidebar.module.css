@@ -1,0 +1,11 @@
+.sidebar {
+	grid-area: sidebar;
+}
+
+.sidebarItems {
+	display: grid;
+	grid-template-areas:
+		"navbar"
+		"friends";
+	grid-template-rows: 1fr 300px;
+}

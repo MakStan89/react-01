@@ -1,0 +1,19 @@
+.messages {
+	display: grid;
+	grid-template-areas:
+		"contact chat"
+		"contact newMessage";
+	grid-template-columns: 1fr 4fr;
+}
+
+.contact {
+	grid-area: contact;
+}
+
+.chat {
+	grid-area: chat;
+}
+
+.newMessage {
+	grid-area: newMessage;
+}

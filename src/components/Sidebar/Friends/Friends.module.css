@@ -1,0 +1,16 @@
+.friends {
+	grid-area: friends;
+	background-color: lightblue;
+	padding-top: 50px;
+}
+
+.friendsTitle {
+	font-size: 35px;
+	text-align: center;
+}
+
+.friendsItem {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+}

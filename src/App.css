@@ -1,0 +1,15 @@
+.app-wrapper {
+	display: grid;
+	grid-template-areas:
+		"header header"
+		"main main"
+		"sidebar home";
+	grid-template-rows: 100px 300px 1fr;
+	grid-template-columns: 1fr 4fr;
+	gap: 10px;
+}
+
+.content {
+	padding: 20px;
+	background-color: #fae;
+}
